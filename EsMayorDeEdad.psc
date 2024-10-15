@@ -1,7 +1,9 @@
 Algoritmo EsMayorDeEdad
-	Definir edad Como Entero
+	Definir edad, mayoriaDeEdad Como Entero
+
+	mayoriaDeEdad = 18
 	
-	Si edad >= 18 Entonces
+	Si edad >= mayoriaDeEdad Entonces
 		Escribir "Es mayor de edad"
 	SiNo
 		Escribir "Es menor de edad"
